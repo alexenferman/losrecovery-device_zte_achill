@@ -51,7 +51,7 @@ TARGET_OTA_ASSERT_DEVICE := achill
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0xf000000
 
 # Recovery LMZA Compression
-# Never Enable This Black Screen and Red LED
+# Never Enable This, will result in black Screen and Red LED
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -71,10 +71,10 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/zte/achill/ramdisk/fstab.qcom
-TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
+TARGET_RECOVERY_FSTAB := device/zte/achill/recovery/root/fstab.qcom
+#TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 #TARGET_USERIMAGES_USE_EXT4 := true
-COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
+#COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
