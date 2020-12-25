@@ -1,5 +1,3 @@
-# Minimal Device Tree For ZTE Avid Plus (WIP)
-
 Copyright 2020 - Alexenferman
 
 Device configuration for ZTE Avid Plus (achill)
