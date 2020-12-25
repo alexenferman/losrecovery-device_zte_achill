@@ -9,7 +9,7 @@ CPU     | Quad Core 1.1 GHz
 CHIPSET | Qualcomm MSM8909 Snapdragon 210
 GPU     | Adreno 304
 Memory  | 1GB
-Shipped Android Version | 5.1 (Nougat)
+Shipped Android Version | 5.1 (Lolipop)
 Storage | 8GB
 Battery | 2300 mAh
 Display | 854 x 480 pixels, 5.71" LTPS IPS LCD
